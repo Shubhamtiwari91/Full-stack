@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title> form </title>
+    </head>
+    <body bgcolor="lightpink">
+        <form>
+            <fieldset>PRIMARY DETAIL
+                <table>
+                    <tr>
+                        <td>Child's Name:</td>
+                        <td><input type="text" name="child_name" placeholder="Enter Your Child Name"></td>
+                    </tr>
+                        <tr>
+                        <td>Child's Date of Birth:</td>
+                        <td><input type="date" name="child_dob"></td>
+                        </tr>
+                        <tr>
+                        <td>Child's Gender:</td>
+                        <td>
+                            <select name="child_gender">
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                </fieldset><br>
+
+            <fieldset>PARTICIPATION INFORMATION
+                <table cellpadding="5">
+                    <tr>
+                        <td>Parent's Name:</td>
+                        <td><input type="text" name="parent_name" placeholder="Parent's Name"></td>
+                        </tr>
+                        <tr>
+                        <td>Parent's Mobile No:</td>
+                        <td><input type="text" name="parent_mobile" placeholder="Parent's Mobile No"></td>
+                        </tr>
+                        <tr>
+                        <td>Email ID:</td>
+                        <td><input type="email" name="email" placeholder="Email ID"></td>
+                    </tr>
+                    <tr>
+                        <td>House No. / Building Name:</td>
+                        <td><input type="text" name="house_no" placeholder="House No. / Building Name"></td>
+                        </tr>
+                        <tr>
+                        <td>Street:</td>
+                        <td><input type="text" name="street" placeholder="Street"></td>
+                        </tr>
+                        <tr>
+                        <td>Locality:</td>
+                        <td><input type="text" name="locality" placeholder="Locality"></td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td>
+                            <select name="state">
+                                <option value="">Select State</option>
+                                 <option value="mp">mp</option>
+                                  <option value="up">up</option>
+                                   <option value="maharast">maharast</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>City:</td>
+                        <td>
+                            <select name="city">
+                                <option value="">Select City</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>Pin Code:</td>
+                        <td><input type="text" name="pin_code" placeholder="Pin Code"></td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>Username:</td>
+                        <td><input type="text" name="username" placeholder="Username"></td>
+                        <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="password" placeholder="Password"></td>
+                        </tr>
+                        <tr>
+                        <td>Confirm Password:</td>
+                        <td><input type="password" name="confirm_password" placeholder="Confirm Password"></td>
+                        </tr>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="employee_advisor"> Are You Max Life Employee Or Agent Advisor?</td>
+                    </tr>
+                    <tr>
+                        <td>Where Did You Hear about us:
+                            <select name="hear_about">
+                                <option value="">Select</option>
+                                <option value="parents">Parents</option>
+                                <option value="friends">Friends</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="terms"> I agree to the <a href="#">Terms & Conditions</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="REGISTER NOW"></td>
+                    </tr>
+                 </table>
+                 </fieldset>
+        </form>
+    </body>
+</html>
